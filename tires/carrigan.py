@@ -8,8 +8,8 @@ class CarriganTire(Tires):
 
 
     def needs_service(self):
-        for wear_value in self.wear_values:
-            if wear_value >= 0.9:
+        for wearArray in self.wearArray:
+            if wearArray >= 0.9:
                 return True
         return False
         
