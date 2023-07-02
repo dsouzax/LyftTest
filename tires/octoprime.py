@@ -1,5 +1,4 @@
 from tires.tires import Tires
-from utils import add_years_to_date
 
 
 class OctoprimeTire(Tires):
